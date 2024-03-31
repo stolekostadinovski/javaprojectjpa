@@ -6,13 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.igor.codeacademy.java.jpaemployeemanagement.model.Address;
+impor com.igor.codeacademy.java.jpaemployeemanagement.model.Address;
 import com.igor.codeacademy.java.jpaemployeemanagement.model.Employee;
 import com.igor.codeacademy.java.jpaemployeemanagement.repo.AddressRepo;
 import com.igor.codeacademy.java.jpaemployeemanagement.repo.EmployeeRepo;
 
 @SpringBootApplication
-public class JpaEmployeeManagementApplication {
+publicc class JpaEmployeeManagementApplication {
 
   @Autowired private AddressRepo addrRepo;
   @Autowired private EmployeeRepo emRepo;
